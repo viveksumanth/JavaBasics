@@ -1,5 +1,4 @@
 package learnjava.comparableinterface.kclosestpoints;
-
 public class ClosestPoints implements Comparable<ClosestPoints> {
     private int[] point;
     private Double distance;

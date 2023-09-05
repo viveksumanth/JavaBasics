@@ -8,6 +8,7 @@ public class Main {
             {5, -1},
             {-2, 4}
         };
+
         int k = 2;
         final int[][] result = sol.kClosest(points, k);
         

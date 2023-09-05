@@ -7,7 +7,6 @@ import java.util.Collections;
 
 public class SortByNameLength {
     public static void main(String[] args) {
-        
         final Person vivek = new Person("Vivek"); //(length 5)
         final Person sumanth = new Person("Sumanth Chintakula"); // (length 18)
         final Person anoosha = new Person("Anoosha Seelam"); // length 14

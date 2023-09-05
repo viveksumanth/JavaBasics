@@ -6,7 +6,6 @@ class Solution {
     public int[][] kClosest(final int[][] points, final int k) {
 
         final List<ClosestPoints> distancePoints = new ArrayList<>();
-        
         for (int[] eachPoint: points) {
             final Integer xi = eachPoint[0];
             final Integer yi = eachPoint[1];
@@ -15,7 +14,7 @@ class Solution {
         }
         Collections.sort(distancePoints);
         
-        final int[][] allPoints = new int[distancePoints.size()][];
+        final int[][] allPoints = new int[distancePoints.size()][];7
         int rowIndex = 0;
 
         for (ClosestPoints point : distancePoints) {
